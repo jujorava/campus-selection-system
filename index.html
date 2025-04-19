@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+  <title>Campus selection system</title>
+  <link rel="stylesheet" href="style.css" />
+
+</head>
+<body>
+  <header>
+    <div class="logo">Placemate</div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="signup.html">Sign up</a></li>
+        <li><a href="login.html">Login</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="heading">
+    <div class="heading-content">
+      <h1>Connecting Talent to Tomorrow’s Opportunities.</h1>
+      <p>Effortlessly connect companies with top campus talent for recruitment.</p>
+      
+      <div class="role-buttons">
+        <button onclick="goToStudent()">Student</button>
+        <button onclick="goToStaff()">Staff</button>
+      </div>
+    </div>
+  </section>
+
+  <section class="companies">
+    <h2>Top Companies Internship</h2>
+        
+    <div class="companies3sub">
+      <div class="companies-card">
+        <a href="https://www.google.com/about/careers/applications/students/engineering-and-technical-internships/">
+          <img src="Google-Emblema.png" alt="Company 1 Logo" style="width: 400px; height: auto;"></a>
+       
+      </div>
+      <div class="companies-card">
+        <a href="https://internshala.com/internships/work-from-home-internships/">
+        <img src="is.png" alt="Company 2 Logo" style="width: 200px; height: auto;"></a>
+   
+      </div>
+      <div class="companies-card">
+        <a href="https://www.infosys.com/careers/internships.html">
+        <img src="infosys 2.png" alt="Company 3 Logo" style="width: 200px; height: auto;"></a>
+       
+      </div>
+    </div>
+    
+    
+    
+  </section>
+
+  <script>
+    function goTologin() {
+        window.location.href = "login.html"; // Replace with your signup page path
+    }
+</script>
+
+<script>
+  function goTosignup() {
+      window.location.href = "signup.html"; // Replace with your signup page path
+  }
+</script>
+<script>
+  function goToStudent() {
+    window.location.href = "signupstudent.html"; // Update to your student page
+  }
+
+  function goToStaff() {
+    window.location.href = "signupstaff.html"; // Update to your staff page
+  }
+</script>
+
+
+  <footer>
+    <p>&copy; Exclusive companies of 2025.</p>
+  </footer>
+
+  <script src="node.js"></script>
+</body>
+</html>

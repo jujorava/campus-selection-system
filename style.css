@@ -1,0 +1,144 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #0c0c0c;
+  color: #fff;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  background: #1a1a1a;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+nav a:hover {
+  color: #eb000c;
+}
+
+.heading {
+  height: 90vh;
+  background: url("dr.n.g.p. background.jpg") no-repeat center center/cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 0 20px;
+}
+
+.heading-content {
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 40px;
+  border-radius: 15px;
+}
+
+.heading h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.heading p {
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+
+.heading button {
+  padding: 15px 30px;
+  font-size: 18px;
+  background-color:orangered;
+  border: none;
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.heading button:hover {
+  background-color: #b2060f;
+}
+
+.companies {
+  padding: 60px 40px;
+  background-color: #141414;
+}
+
+.companies h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.companies3sub {
+  display: flex;
+  gap: 20px;
+  overflow-x: auto;
+  padding: 10px 0;
+}
+
+.companies-card {
+  min-width: 200px;
+  height: 300px;
+  background: #292929;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 22px;
+}
+
+footer {
+  background: #1a1a1a;
+  text-align: center;
+  padding: 20px;
+  color: #ccc;
+}
+.logo {
+  
+  font-family: 'Pacifico', cursive; /* or whatever font you want */
+  font-size: 40px;
+  color: white;
+}
+
+.role-buttons {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+.role-buttons button {
+  padding: 12px 25px;
+  font-size: 18px;
+  background-color: orangered;
+  border: none;
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background 0.3s, transform 0.2s;
+}
+
+.role-buttons button:hover {
+  background-color: #b2060f;
+  transform: scale(1.05);
+}

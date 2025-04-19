@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color:rgba(0, 0, 0, 0.1);
+    color: #fff;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background: #1a1a1a;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+  }
+  
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    transition: color 0.3s;
+  }
+  
+  nav a:hover {
+    color: #eb000c;
+  }
+  
+  .about section {
+    height: 90vh;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 0 20px;
+  }
+  
+  .container {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 40px;
+    border-radius: 15px;
+  }
+  
+  
+  .heading button {
+    padding: 15px 30px;
+    font-size: 18px;
+    background-color:orangered;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .heading button:hover {
+    background-color: #b2060f;
+  }
+  
+ 
+  
+ 
+  
+  footer {
+    background: #1a1a1a;
+    text-align: center;
+    padding: 20px;
+    color: #ccc;
+  }
+  .logo {
+    
+    font-family: 'Pacifico', cursive; /* or whatever font you want */
+    font-size: 40px;
+    color: white;
+  }
